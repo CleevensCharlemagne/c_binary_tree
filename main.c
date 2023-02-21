@@ -20,3 +20,8 @@ struct TreeNode* makeEmpty(struct TreeNode* root)
     return NULL;
 
 }
+
+struct TreeNode* insert(struct TreeNode* root, int x)
+{
+
+}
