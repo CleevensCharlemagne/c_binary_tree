@@ -83,5 +83,7 @@ struct TreeNode* delete(struct TreeNode* root, int x)
     struct TreeNode* temp;
     if(root == NULL)
         return NULL;
+    else if(x < root->data)
+        root->left = delete(root->left, x);
 
 }
