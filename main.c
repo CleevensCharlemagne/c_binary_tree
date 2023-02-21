@@ -35,3 +35,8 @@ struct TreeNode* insert(struct TreeNode* root, int x)
         root->right = insert(root->right, x);
     return root;
 }
+
+struct TreeNode* findMin(struct TreeNode* root)
+{
+
+}
