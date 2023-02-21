@@ -80,5 +80,6 @@ int findHeight(struct TreeNode* root)
 
 struct TreeNode* delete(struct TreeNode* root, int x)
 {
+    struct TreeNode* temp;
 
 }
