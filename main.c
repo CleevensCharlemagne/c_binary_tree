@@ -85,5 +85,13 @@ struct TreeNode* delete(struct TreeNode* root, int x)
         return NULL;
     else if(x < root->data)
         root->left = delete(root->left, x);
+    else if(x > root->data)
+        root->right = delete(root->right, x);
+    else if(root->left && root->right)
+    {
+        temp = findMin(root->right);
+        root->data = temp->data;
+        root->right = delete(root->right, root->data);
+    }
 
 }
