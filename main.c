@@ -40,5 +40,7 @@ struct TreeNode* findMin(struct TreeNode* root)
 {
     if(root == NULL)
     	return NULL;
+    else if(root->left == NULL)
+    	return root;
 
 }
