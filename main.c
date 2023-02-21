@@ -45,3 +45,8 @@ struct TreeNode* findMin(struct TreeNode* root)
     else
     	return findMin(root->left);
 }
+
+struct TreeNode* findMax(struct TreeNode* root)
+{
+
+}
