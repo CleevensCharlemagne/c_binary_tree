@@ -29,5 +29,9 @@ struct TreeNode* insert(struct TreeNode* root, int x)
         root->data = x;
         root->left = root->right = NULL;
     }
-
+    else if(x < root->data)
+        root->left = insert(root->left, x);
+    else if(x > root->data)
+        root->right = insert(root->right, x);
+    return root;
 }
