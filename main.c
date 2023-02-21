@@ -93,5 +93,14 @@ struct TreeNode* delete(struct TreeNode* root, int x)
         root->data = temp->data;
         root->right = delete(root->right, root->data);
     }
-
+    else
+    {
+        temp = root;
+        if(root->left == NULL)
+            root = root->right;
+        else if(root->right == NULL)
+            root = root->left;
+        free(temp);
+    }
+    return root;
 }
