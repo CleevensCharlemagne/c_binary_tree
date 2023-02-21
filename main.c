@@ -75,5 +75,5 @@ int findHeight(struct TreeNode* root)
         return -1;
     lefth = findHeight(root->left);
     righth = findHeight(root->right);
-
+    return (lefth > righth ? lefth : righth)+1;
 }
