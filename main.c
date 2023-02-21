@@ -23,5 +23,11 @@ struct TreeNode* makeEmpty(struct TreeNode* root)
 
 struct TreeNode* insert(struct TreeNode* root, int x)
 {
+    if(root == NULL)
+    {
+        root = malloc(sizeof(struct TreeNode));
+        root->data = x;
+        root->left = root->right = NULL;
+    }
 
 }
