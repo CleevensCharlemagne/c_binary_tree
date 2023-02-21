@@ -38,5 +38,7 @@ struct TreeNode* insert(struct TreeNode* root, int x)
 
 struct TreeNode* findMin(struct TreeNode* root)
 {
+    if(root == NULL)
+    	return NULL;
 
 }
