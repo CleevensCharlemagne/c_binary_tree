@@ -77,3 +77,8 @@ int findHeight(struct TreeNode* root)
     righth = findHeight(root->right);
     return (lefth > righth ? lefth : righth)+1;
 }
+
+struct TreeNode* delete(struct TreeNode* root, int x)
+{
+
+}
