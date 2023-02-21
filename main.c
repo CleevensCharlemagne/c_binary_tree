@@ -60,5 +60,7 @@ struct TreeNode* find(struct TreeNode* root, int x)
 {
     if(root == NULL)
         return NULL;
+    else if(x < root->data)
+        return find(root->left, x);
 
 }
