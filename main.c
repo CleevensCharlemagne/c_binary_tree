@@ -71,5 +71,7 @@ struct TreeNode* find(struct TreeNode* root, int x)
 int findHeight(struct TreeNode* root)
 {
     int lefth, righth;
+    if(root == NULL)
+        return -1;
 
 }
