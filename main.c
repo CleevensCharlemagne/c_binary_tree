@@ -11,4 +11,10 @@ struct TreeNode
 struct TreeNode* makeEmpty(struct TreeNode* root)
 {
 
+    if(root != NULL)
+    {
+
+    }
+    return NULL;
+
 }
