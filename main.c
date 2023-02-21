@@ -58,5 +58,7 @@ struct TreeNode* findMax(struct TreeNode* root)
 
 struct TreeNode* find(struct TreeNode* root, int x)
 {
+    if(root == NULL)
+        return NULL;
 
 }
