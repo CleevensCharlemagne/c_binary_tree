@@ -3,8 +3,6 @@
 
 struct TreeNode
 {
-    // test
-
     int data;
     struct TreeNode* left;
     struct TreeNode* right;
