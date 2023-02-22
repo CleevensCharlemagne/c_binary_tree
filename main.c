@@ -10,7 +10,6 @@ struct TreeNode
     // test
     // test
     // test
-    // test
 
     int data;
     struct TreeNode* left;
