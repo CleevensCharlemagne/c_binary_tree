@@ -4,7 +4,6 @@
 struct TreeNode
 {
     // test
-    // test
 
     int data;
     struct TreeNode* left;
