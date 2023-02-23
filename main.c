@@ -139,6 +139,7 @@ int main()
     printf("Max Element: %d\n", temp->data);
     temp = findMin(root);
     printf("Min Element: %d\n", temp->data);
+    root = delete(root, 8);
 
     return 0;
 }
