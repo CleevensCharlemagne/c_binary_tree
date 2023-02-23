@@ -135,6 +135,7 @@ int main()
     root = insert(root, 22);
     root = insert(root, 35);
     inorder(root); printf("\n");
+    temp = findMax(root);
 
     return 0;
 }
