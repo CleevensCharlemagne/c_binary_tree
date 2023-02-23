@@ -120,6 +120,7 @@ int main()
     struct TreeNode *temp;
     root = NULL;
     root = insert(root, 15);
-    return 0;
+    root = insert(root, 10);
+
 }
 
