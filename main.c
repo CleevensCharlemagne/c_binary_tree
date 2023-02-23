@@ -140,6 +140,7 @@ int main()
     temp = findMin(root);
     printf("Min Element: %d\n", temp->data);
     root = delete(root, 8);
+    root = delete(root, 16);
 
     return 0;
 }
