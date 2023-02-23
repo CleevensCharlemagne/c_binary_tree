@@ -136,6 +136,7 @@ int main()
     root = insert(root, 35);
     inorder(root); printf("\n");
     temp = findMax(root);
+    printf("Max Element: %d\n", temp->data);
 
     return 0;
 }
