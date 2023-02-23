@@ -113,3 +113,10 @@ void inorder(struct TreeNode* root)
     printf("%d ", root->data);
     inorder(root->right);
 }
+
+int main()
+{
+
+    return 0;
+}
+
