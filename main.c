@@ -104,3 +104,8 @@ struct TreeNode* delete(struct TreeNode* root, int x)
     }
     return root;
 }
+
+void inorder(struct TreeNode* root)
+{
+
+}
