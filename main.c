@@ -121,6 +121,8 @@ int main()
     root = NULL;
     root = insert(root, 15);
     root = insert(root, 10);
+    root = insert(root, 25);
 
+    return 0;
 }
 
