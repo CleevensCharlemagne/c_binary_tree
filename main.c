@@ -107,5 +107,6 @@ struct TreeNode* delete(struct TreeNode* root, int x)
 
 void inorder(struct TreeNode* root)
 {
+    if(root == NULL)
+        return;
 
-}
