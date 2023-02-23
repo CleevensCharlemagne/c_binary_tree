@@ -116,7 +116,10 @@ void inorder(struct TreeNode* root)
 
 int main()
 {
-
+    struct TreeNode *root;
+    struct TreeNode *temp;
+    root = NULL;
+    root = insert(root, 15);
     return 0;
 }
 
