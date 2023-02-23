@@ -137,6 +137,8 @@ int main()
     inorder(root); printf("\n");
     temp = findMax(root);
     printf("Max Element: %d\n", temp->data);
+    temp = findMin(root);
+    printf("Min Element: %d\n", temp->data);
 
     return 0;
 }
