@@ -141,6 +141,7 @@ int main()
     printf("Min Element: %d\n", temp->data);
     root = delete(root, 8);
     root = delete(root, 16);
+    inorder(root); printf("\n");
 
     return 0;
 }
