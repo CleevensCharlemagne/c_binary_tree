@@ -3,6 +3,7 @@
 
 struct TreeNode
 {
+    //Base node
     int data;
     struct TreeNode* left;
     struct TreeNode* right;
