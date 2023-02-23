@@ -148,7 +148,7 @@ int main()
     inorder(root); printf("\n");
     root = delete(root, 35);
     inorder(root); printf("\n");
-
+    root = makeEmpty(root);
     return 0;
 }
 
