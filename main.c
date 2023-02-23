@@ -134,6 +134,7 @@ int main()
     printf("Height: %d\n", findHeight(root));
     root = insert(root, 22);
     root = insert(root, 35);
+    inorder(root); printf("\n");
 
     return 0;
 }
