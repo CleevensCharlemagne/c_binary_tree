@@ -129,6 +129,7 @@ int main()
     root = insert(root, 30);
     printf("Height: %d\n", findHeight(root));
     root = insert(root, 3);
+    root = insert(root, 8);
 
     return 0;
 }
