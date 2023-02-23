@@ -147,6 +147,7 @@ int main()
     root = delete(root, 10);
     inorder(root); printf("\n");
     root = delete(root, 35);
+    inorder(root); printf("\n");
 
     return 0;
 }
